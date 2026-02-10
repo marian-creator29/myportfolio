@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marianne Lumacuas | Portfolio</title>
+  
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Raleway:wght@700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="header">
+    <nav class="navbar container">
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#certificates" class="nav-link">Certificates</a></li>
+        <li><a href="#resume" class="nav-link">Resume</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <i class="fas fa-moon"></i>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section (NO PICTURE HERE) -->
+  <section id="home" class="hero section">
+    <div class="container">
+      <div class="hero-content centered">
+        <h4 class="hero-subtitle">Hello, I'm</h4>
+        <h1 class="hero-title">Marianne <span class="highlight">Lumacuas</span></h1>
+        <h2 class="hero-role">Web Developer</h2>
+        <p class="hero-description">
+          I create modern, responsive, and user-friendly websites with clean design and optimal performance. Passionate about turning ideas into digital experiences.
+        </p>
+        
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            <span>View Projects</span>
+            <i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            <span>Hire Me</span>
+            <i class="fas fa-paper-plane"></i>
+          </a>
+        </div>
+        
+        <div class="hero-social">
+          <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="scroll-indicator">
+      <a href="#about">
+        <span>Scroll Down</span>
+        <i class="fas fa-chevron-down"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- About Section (KEEPING THE PICTURE HERE) -->
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">About <span>Me</span></h2>
+        <p class="section-subtitle">Get to know me better</p>
+      </div>
+      
+      <div class="about-container">
+        <div class="about-image">
+          <div class="about-image-wrapper">
+            <img src="assets/me.png" alt="Marianne Lumacuas">
+          </div>
+        </div>
+        
+        <div class="about-content">
+          <h3>I'm a Passionate Web Developer</h3>
+          <p>
+            I'm a dedicated web developer focused on building beautiful and functional websites that provide great user experiences. I enjoy transforming ideas into digital realities and continuously improving my skills in modern web technologies.
+          </p>
+          
+          <div class="about-details">
+            <div class="detail">
+              <span class="detail-label">Name:</span>
+              <span class="detail-value">Marianne Lumacuas</span>
+            </div>
+            <div class="detail">
+              <span class="detail-label">Email:</span>
+              <span class="detail-value">marianne@gmail.com</span>
+            </div>
+            <div class="detail">
+              <span class="detail-label">Location:</span>
+              <span class="detail-value">Digos City, Philippines</span>
+            </div>
+            <div class="detail">
+              <span class="detail-label">Status:</span>
+              <span class="detail-value highlight">Available for Work</span>
+            </div>
+          </div>
+          
+          <a href="#contact" class="btn btn-outline">
+            <span>Contact Me</span>
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">My <span>Skills</span></h2>
+        <p class="section-subtitle">Technologies I work with</p>
+      </div>
+      
+      <div class="skills-container">
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-html5"></i>
+          </div>
+          <h3 class="skill-title">HTML5</h3>
+          <p class="skill-description">Semantic markup, accessibility, modern HTML features</p>
+          <div class="skill-progress">
+            <div class="progress-bar">
+              <div class="progress-fill" data-level="95"></div>
+            </div>
+            <span class="progress-text">95%</span>
+          </div>
+        </div>
+        
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-css3-alt"></i>
+          </div>
+          <h3 class="skill-title">CSS</h3>
+          <p class="skill-description">Flexbox, Grid, animations, responsive design</p>
+          <div class="skill-progress">
+            <div class="progress-bar">
+              <div class="progress-fill" data-level="90"></div>
+            </div>
+            <span class="progress-text">90%</span>
+          </div>
+        </div>
+        
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-js"></i>
+          </div>
+          <h3 class="skill-title">JavaScript</h3>
+          <p class="skill-description">ES6+, DOM manipulation, modern frameworks</p>
+          <div class="skill-progress">
+            <div class="progress-bar">
+              <div class="progress-fill" data-level="85"></div>
+            </div>
+            <span class="progress-text">85%</span>
+          </div>
+        </div>
+        
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <h3 class="skill-title">Responsive Design</h3>
+          <p class="skill-description">Mobile-first approach, cross-browser compatibility</p>
+          <div class="skill-progress">
+            <div class="progress-bar">
+              <div class="progress-fill" data-level="95"></div>
+            </div>
+            <span class="progress-text">95%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">My <span>Projects</span></h2>
+        <p class="section-subtitle">Click on any project to view details</p>
+      </div>
+      
+      <div class="projects-container">
+        <!-- Pawfect Store Project -->
+        <div class="project-card" data-project="0">
+          <div class="project-image">
+            <img src="assets/pawfect.jpg" alt="Pawfect Store">
+            <div class="project-overlay">
+              <button class="view-project" data-project="0">
+                <i class="fas fa-eye"></i>
+                <span>View Details</span>
+              </button>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Pawfect Care</h3>
+            <p class="project-description">Your complete guide to happy, healthy cats and dogs.</p>
+          </div>
+        </div>
+        
+        <!-- MugMate Project -->
+        <div class="project-card" data-project="1">
+          <div class="project-image">
+            <img src="assets/mugmate.jpg" alt="MugMate">
+            <div class="project-overlay">
+              <button class="view-project" data-project="1">
+                <i class="fas fa-eye"></i>
+                <span>View Details</span>
+              </button>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">MugMate</h3>
+            <p class="project-description">From sustainable farms to your cup, Mugmate is committed to ethical sourcing and community.</p>
+          </div>
+        </div>
+        
+        <!-- SPA Business Project -->
+        <div class="project-card" data-project="2">
+          <div class="project-image">
+            <img src="assets/website.png" alt="Business Website">
+            <div class="project-overlay">
+              <button class="view-project" data-project="2">
+                <i class="fas fa-eye"></i>
+                <span>View Details</span>
+              </button>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Be Polished</h3>
+            <p class="project-description">Your local sanctuary for self-care, promoting health and wellness in our community.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates Section -->
+  <section id="certificates" class="certificates section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">My <span>Certificates</span></h2>
+        <p class="section-subtitle">Achievements and qualifications</p>
+      </div>
+      
+      <div class="certificates-container">
+        <div class="certificate-card">
+          <div class="certificate-image-scroll">
+            <img src="assets/Cert.png" alt="Certificate 1">
+          </div>
+          <div class="certificate-content">
+            <h3>Web Development Certification</h3>
+            <p>Completed advanced web development course with distinction</p>
+          </div>
+        </div>
+        
+        <div class="certificate-card">
+          <div class="certificate-image-scroll">
+            <img src="assets/NC11.jpg" alt="Certificate 2">
+          </div>
+          <div class="certificate-content">
+            <h3>NC II Computer Systems Servicing</h3>
+            <p>National Certificate in Computer Systems Servicing</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+<section id="resume" class="resume section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">My <span>Resume</span></h2>
+      <p class="section-subtitle">Download my professional resume</p>
+    </div>
+    
+    <div class="resume-container centered">
+      <div class="resume-content">
+        <!-- Changed from PDF icon to image icon -->
+        <div class="resume-icon">
+          <i class="fas fa-file-image"></i>
+        </div>
+        <h3>Download Resume</h3>
+        <p>Get a detailed overview of my professional experience, education, and skills</p>
+        
+        <!-- Changed button text from PDF to Image -->
+        <a href="assets/resume.png" class="btn btn-primary" download>
+          <i class="fas fa-download"></i>
+          <span>Download Image</span>
+        </a>
+        
+        <!-- Optional: Add a preview of the resume -->
+        <div class="resume-preview">
+          <h4>Preview:</h4>
+          <img src="assets/resume.png" alt="Resume Preview" class="preview-image">
+          <p class="preview-note">Click image to view larger</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Get In <span>Touch</span></h2>
+        <p class="section-subtitle">Let's work together</p>
+      </div>
+      
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-details">
+              <h3>Email</h3>
+              <p>marianne@gmail.com</p>
+            </div>
+          </div>
+          
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="contact-details">
+              <h3>Location</h3>
+              <p>Digos City, Philippines</p>
+            </div>
+          </div>
+          
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="contact-details">
+              <h3>Phone</h3>
+              <p>+63 912 345 6789</p>
+            </div>
+          </div>
+        </div>
+        
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <input type="text" placeholder="Your Name" required>
+          </div>
+          
+          <div class="form-group">
+            <input type="email" placeholder="Your Email" required>
+          </div>
+          
+          <div class="form-group">
+            <input type="text" placeholder="Subject" required>
+          </div>
+          
+          <div class="form-group">
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+          </div>
+          
+          <button type="submit" class="btn btn-primary">
+            <span>Send Message</span>
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <h3>Marianne Lumacuas</h3>
+          <p class="footer-description">Web Developer creating beautiful and functional digital experiences.</p>
+        </div>
+        
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-social">
+          <h3>Follow Me</h3>
+          <div class="social-links">
+            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 Marianne Lumacuas. All rights reserved.</p>
+        <p>Designed with <i class="fas fa-heart"></i> and code</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Project Details Modal -->
+  <div class="modal project-modal" id="projectModal">
+    <div class="modal-content">
+      <button class="modal-close" id="projectModalClose">&times;</button>
+      
+      <div class="project-modal-header">
+        <div class="project-modal-image-scroll">
+          <img id="projectModalImage" src="" alt="Project Image">
+        </div>
+        <div class="project-modal-info">
+          <h2 id="projectModalTitle"></h2>
+          <p class="project-modal-subtitle" id="projectModalCategory"></p>
+        </div>
+      </div>
+      
+      <div class="project-modal-body">
+        <div class="project-modal-section">
+          <h3><i class="fas fa-info-circle"></i> Project Overview</h3>
+          <p id="projectModalDescription"></p>
+        </div>
+        
+        <div class="project-modal-section">
+          <h3><i class="fas fa-cogs"></i> Features</h3>
+          <ul id="projectModalFeatures"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Back to Top Button -->
+  <a href="#home" class="back-to-top" id="backToTop">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
